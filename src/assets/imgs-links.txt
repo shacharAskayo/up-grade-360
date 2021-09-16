@@ -1,0 +1,14 @@
+{
+tablet-img
+src="https://app-getwild.ussl.co.il/wp-content/uploads/2021/08/UpGradeH-iPad-Landscape.d110a0.webp"
+}
+
+{
+bottle-img
+https://app-getwild.ussl.co.il/wp-content/uploads/2021/08/15483-sport-bottle-31_metal-1024x1024.d110a0.webp
+}
+
+{
+main-background
+https://app-getwild.ussl.co.il/wp-content/uploads/2021/08/UpGrade_Design-Details-10.svg
+}

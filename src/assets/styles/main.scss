@@ -1,0 +1,62 @@
+//set up
+@import "setup/variables";
+
+//cmps
+@import "./cmps/Header";
+
+//pages
+@import "./pages/Home";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    direction: rtl;
+    font-size: 14px;
+}
+
+body{
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: Heebo-light;
+    src: url(../fonts/Heebo-Light.ttf);
+}
+@font-face {
+    font-family: Heebo-bold;
+    src: url(../fonts/Heebo-Bold.ttf);
+}
+@font-face {
+    font-family: Heebo;
+    src: url(../fonts/Heebo-Regular.ttf);
+}
+@font-face {
+    font-family: Heebo-bold;
+    src: url(../fonts/Heebo-Bold.ttf);
+}
+
+.app {
+    width: 97vw;
+    display: flex;
+    justify-content: center;
+    .main-route-view {
+        width: 1000px;
+        margin-top: 72px;
+        background-image: url("https://app-getwild.ussl.co.il/wp-content/uploads/2021/08/UpGrade_Design-Details-10.svg");
+        background-repeat: no-repeat;
+    }
+}
+pre {
+    white-space: break-spaces;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+@media (max-width: 1000px) {
+    .main-route-view {
+        width: 100%;
+    }
+}
