@@ -12,9 +12,9 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
       <div className='main-route-view'>
         <Router>
+      <Header />
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />

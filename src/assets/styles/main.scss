@@ -55,8 +55,11 @@ pre {
 p {
     margin: 0;
 }
-@media (max-width: 1000px) {
-    .main-route-view {
-        width: 100%;
+
+@media (max-width: $mobile-breakpoint){
+    .app{
+        .main-route-view {
+            width: 100%;
+        }
     }
 }

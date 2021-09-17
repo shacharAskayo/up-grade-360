@@ -49,7 +49,7 @@
         right: 0;
         .card-layout {
             padding: 15px 58px;
-            &:first-of-type{
+            &:first-of-type {
                 // margin-right: 0;
             }
             .home-second-section-title {
@@ -70,20 +70,20 @@
     .home-third-section {
         margin-top: 250px;
         padding-right: 20px;
-        .text{
+        .text {
             // height: 80%;
             margin-top: 40px;
             display: flex;
             flex-direction: column;
-            .title-1{
+            .title-1 {
                 font-size: 1.7rem;
-                font-family: "Heebo" ,sans-serif;
+                font-family: "Heebo", sans-serif;
                 font-weight: 400;
                 color: $main-blue;
                 line-height: 1;
                 margin-bottom: 5px;
             }
-            .title-2{
+            .title-2 {
                 line-height: 0.86em;
                 font-size: 3rem;
                 color: $main-orange;
@@ -91,7 +91,7 @@
                 font-weight: 700;
                 margin-bottom: 12px;
             }
-            .title-3{
+            .title-3 {
                 font-size: 1.4rem;
                 line-height: 1.3em;
                 color: $main-black;
@@ -108,11 +108,11 @@
             // left: -0px;
             transform: rotate(344deg);
         }
-        .home-ipad-img{ 
+        .home-ipad-img {
             width: 540px;
             height: 400px;
         }
-        .home-bottle-img{ 
+        .home-bottle-img {
             width: 500px;
             height: 600px;
             position: relative;
@@ -121,18 +121,49 @@
         }
     }
 
-    .home-fourth-section{
+    .home-fourth-section {
         width: 100%;
-        height: 100px;
-        margin-bottom: -100px;
+        // height: 100px;
         background-color: $main-blue;
         display: flex;
-        padding: 4rem 0rem 8rem 0rem;
         justify-content: center;
-        text-align: center;
+        padding: 4rem 0rem 3rem 0rem;
         margin-top: -60px;
         position: absolute;
         right: 0;
+
+        .text {
+            margin-left: 285px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+    }
+    .home-fifth-section {
+        margin-top: 130px;
+    }
+
+    .title-1 {
+        font-size: 1.7rem;
+        font-family: "Heebo", sans-serif;
+        font-weight: 400;
+        color: $main-blue;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+    .title-2 {
+        line-height: 0.86em;
+        font-size: 3rem;
+        color: $main-orange;
+        font-family: "Heebo-bold";
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    .title-3 {
+        font-size: 1.4rem;
+        line-height: 1.3em;
+        color: $main-black;
+        font-family: "Heebo";
     }
 }
 
@@ -143,4 +174,50 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-items: center;
+}
+
+@media (max-width: $mobile-breakpoint){
+    .main-title-and-svg {
+        // padding-right: 170px;
+        // padding-left: 40px;
+        grid-template-columns: unset;
+    }
+
+    body{
+        overflow-x: unset;
+    }
+    
+    .home{
+        .home-first-section{
+            svg{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .home-second-section{
+            flex-direction: column;
+            margin-top: 0;
+            padding: unset;
+        }
+        .home-third-section{
+            .floating-card{
+                width: 300px;
+                height: 200px;
+            }
+            .home-ipad-img{
+                width: 100%;
+                height: 100%;
+            }
+            .home-bottle-img{
+                width: 100%;
+                height: 100%;
+                position: unset;
+            }
+        }
+        .home-fourth-section{
+            .text{
+                margin-left: 0;
+            }
+        }
+    }
 }

@@ -2,6 +2,7 @@
     position: fixed;
     z-index: 10;
     top: 0;
+    right: 0;
     background-color: #ffffff;
     height: 72px;
     width: 100vw;
@@ -39,5 +40,17 @@
         padding: 0.8em 1.5em 0.8em 1.5em;
         background-color: #059EE4;
         font-weight: 500;
+    }
+}
+
+@media (max-width: $mobile-breakpoint){
+    
+    .main-header{
+        nav.main-nav{
+            display: none;
+        }
+        button{
+            display: none;
+        }
     }
 }

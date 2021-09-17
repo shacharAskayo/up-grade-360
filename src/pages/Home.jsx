@@ -1,12 +1,13 @@
 import React from 'react'
 import MainHero from '../cmps/svgs/MainHero'
 import ipadImg from '../assets/imgs/upgrade-ipad-logo.jpg'
+import { Link } from 'react-router-dom'
 
 export default function Home() {
     return (
         <div className='home'>
-            <div className="main-title-and-svg">
 
+            <div className="home-first-section main-title-and-svg">
                 <div>
                     <pre className='home-main-title'>
                         קפיצת
@@ -118,7 +119,21 @@ export default function Home() {
             </div>
 
             <div className="home-fourth-section">
+                <div className="text">
 
+                    <span className="title-2">
+                        בא לכם לנסות אותנו <span className="title-2" style={{ color: 'white' }}>בחינם?</span>
+
+                    </span>
+                    <span className="title-3">
+                        30 ימי ניסיון ללא עלות למצטרפים חדשים
+                    </span>
+                    <button> אני רוצה לנסות</button>
+                </div>
+
+            </div>
+
+            <div className="home-fifth-section">
             </div>
         </div>
 
