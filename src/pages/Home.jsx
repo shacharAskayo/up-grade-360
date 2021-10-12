@@ -13,6 +13,9 @@ export default function Home() {
                         קפיצת
                         המדרגה
                         שלך!
+                        קפיצת
+                        המדרגה
+                        שלך!
                     </pre>
                     <pre className='home-main-subtitle'>
                         תוכנת UPGRADE360 עובדת במקומכם ובשבילכם! <br />
